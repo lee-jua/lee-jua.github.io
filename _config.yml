@@ -21,7 +21,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 기워서 만드는 프로그래밍                  # the main title
+title: 전두엽을 깨우는 블로그                  # the main title
 
 tagline: 프로그래밍 이론, 개발 이야기, 커리어 여정 등   # it will display as the sub-title
 
@@ -83,7 +83,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: 'assets/img/commons/avatar.png'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
