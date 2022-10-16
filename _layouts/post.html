@@ -12,7 +12,13 @@ tail_includes:
 {% include lang.html %}
 
 <h1 data-toc-skip>{{ page.title }}</h1>
-
+<div style="text-align: center;">
+  <a href="http://hits.dwyl.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}"
+    target="_blank">
+    <img
+      src="http://hits.dwyl.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}.svg" />
+  </a>
+</div>
 <div class="post-meta text-muted">
     <!-- published date -->
     <span>
@@ -149,3 +155,4 @@ tail_includes:
 </script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5500396600168760"
      crossorigin="anonymous"></script>
+
