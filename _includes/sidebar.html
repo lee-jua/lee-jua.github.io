@@ -4,6 +4,8 @@
 
 <div id="sidebar" class="d-flex flex-column align-items-end">
   <div class="profile-wrapper text-center">
+    HTML
+
     <div id="avatar">
       <a href="{{ '/' | relative_url }}" class="mx-auto">
         {% if site.avatar != empty and site.avatar %}
@@ -20,12 +22,18 @@
         {% endif %}
       </a>
     </div>
-
+    
     <div class="site-title mt-3">
+      
       <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+     
     </div>
-    <div class="site-subtitle font-italic">{{ site.tagline }}</div>
-
+    <div class="site-subtitle font-italic">{{ site.tagline }}
+      <br>
+      <br>
+      <a href="https://hits.sh/lee-jua.github.io/"><img alt="Hits" src="https://hits.sh/lee-jua.github.io.svg?color=69bfc7"/></a>
+     </div>
+      
   </div><!-- .profile-wrapper -->
 
 
